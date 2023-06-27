@@ -1,0 +1,18 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.8.0
+- pip:
+  - openpyxl==3.0.10
+  - xlrd==2.0.1
+  - inference-schema[numpy-support]==1.2.2.1
+  - joblib==1.0.1
+  - numpy==1.20.0
+  - spacy[cuda114]==3.4.0
+  - azureml==0.2.7
+  - pyyaml==6.0
+  - pandas==0.25.3
+  # - cuda-python==11.8.0
+  - azureml-defaults
+  - azureml-telemetry
+  - azureml-interpret
